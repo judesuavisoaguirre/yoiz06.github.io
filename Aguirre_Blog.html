@@ -3,166 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Jude Aguirre S. Aguirre</title>
+    <title>Jude Aguirre's Blog</title>
     <style>
         
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background: #faf3e0; 
+            background: #f3f0e0; 
             color: #333;
         }
         
-        
-        .resume-container {
+        .blog-container {
             background-color: #ffffff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             max-width: 800px;
             margin: auto;
-            color: #333; 
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
 
+        
         .profile-image img {
             border-radius: 50%;
-            border: 3px solid #4ecca3; 
+            border: 3px solid #4ecca3;
+            width: 150px;
+            height: 150px;
+            float: right; 
+            margin-left: 20px; 
         }
 
-        section {
-            margin-bottom: 20px;
+        
+        h1 {
+            color: #4ecca3; 
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 0.5em;
         }
 
         h2 {
-            color: #4ecca3; 
-            border-bottom: 2px solid #4ecca3;
+            color: #ff6f61; 
+            border-bottom: 2px solid #ff6f61;
             padding-bottom: 5px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            font-size: 1.6em;
         }
 
-        table {
-            width: 100%;
+        
+        #about-me, #journey, #skills, #interests {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fdf8f2; 
+            overflow: hidden; 
         }
 
-        td {
-            padding: 5px;
-            vertical-align: top;
-        }
-
-        #about-me {
-            font-size: 1.1em;
-            margin-bottom: 20px;
+        
+        p {
             line-height: 1.6;
-            color: #555; 
+            color: #555;
         }
 
         ul {
-            list-style-type: square;
+            list-style-type: disc;
             padding-left: 20px;
             color: #333;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        
+        strong {
+            color: #4ecca3; 
         }
     </style>
 </head>
 <body>
-    <div class="resume-container">
-        
-        <div class="profile-image" style="text-align: center;">
-            <img src="/mnt/data/462540139_1230843914910533_4274348844262796183_n.jpeg" 
-
-                alt="me" width="150" height="150">
-        </div>
+    <div class="blog-container">
         
         <section id="about-me">
-            <h2>About Me</h2>
+            <h1>Hello! I'm Jude Aguirre.</h1>
+            <div class="profile-image">
+                <img src="https://scontent.fmnl33-6.fna.fbcdn.net/v/t1.15752-9/358730346_110289912112292_951378349215667020_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFS5nKCYbYomxMpfgFGAzZY6La74V0AWd7otrvhXQBZ3myjhhmtw6WGIRW0YyshrdXRq8rga6jEuTve_QTTQeWB&_nc_ohc=jQ5OI8qmtzkQ7kNvgHdjrHx&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=AFGQFIJsDRTUdX83C0b9YvZ&oh=03_Q7cD1QEfSVE39OCHDWGUB1QdDdIG0WP4n87AcSUI5Bk5w5Hw2Q&oe=67279575"
+     alt="Jude Aguirre" width="150" height="150">
+
+            </div>
             <p>
-                Dedicated and proactive individual with a passion for continuous learning and personal development. 
-                Experienced in time management, adaptability, and problem-solving. Eager to bring a strong work ethic 
-                and critical thinking skills to contribute effectively to any team.
+                Welcome to my personal blog! Here, I will be sharing a bit about my life, my passions, and the experiences that have shaped me.
+                I'm a 22-year-old with a love for learning, growth, and connecting with new people and ideas.
+                From managing projects to solving everyday challenges, I bring my best self to everything I do.
             </p>
         </section>
 
-       
-        <section>
-            <h2>Personal Details</h2>
-            <table>
-                <tr>
-                    <td><strong>Name:</strong></td>
-                    <td>Jude Aguirre S. Aguirre</td>
-                </tr>
-                <tr>
-                    <td><strong>Contact No.:</strong></td>
-                    <td>+639123456789</td>
-                </tr>
-                <tr>
-                    <td><strong>Address:</strong></td>
-                    <td>639 Int. 2 Geronimo St. Sampaloc, Manila</td>
-                </tr>
-                <tr>
-                    <td><strong>Email Add.:</strong></td>
-                    <td>judesuavisoaguirre@gmail.com</td>
-                </tr>
-                <tr>
-                    <td><strong>Birthdate:</strong></td>
-                    <td>09/28/2002</td>
-                </tr>
-                <tr>
-                    <td><strong>Age:</strong></td>
-                    <td>22</td>
-                </tr>
-            </table>
-        </section>
         
-    
-        <section>
-            <h2>Educational Background</h2>
-            <table>
-                <tr>
-                    <td><strong>Primary:</strong></td>
-                    <td>Gen. Licerio Geronimo Elementary School</td>
-                </tr>
-                <tr>
-                    <td><strong>Secondary:</strong></td>
-                    <td>Ramon Magsaysay High School</td>
-                </tr>
-                <tr>
-                    <td><strong>Tertiary:</strong></td>
-                    <td>Technological University of the Philippines - Manila</td>
-                </tr>
-            </table>
-        </section>
-        
-        
-        <section>
-            <h2>Skills</h2>
-            <table>
-                <tr>
-                    <td><strong>1.</strong></td>
-                    <td>Time Management</td>
-                </tr>
-                <tr>
-                    <td><strong>2.</strong></td>
-                    <td>Adaptability</td>
-                </tr>
-                <tr>
-                    <td><strong>3.</strong></td>
-                    <td>Critical Thinking</td>
-                </tr>
-                <tr>
-                    <td><strong>4.</strong></td>
-                    <td>Problem-solving</td>
-                </tr>
-            </table>
+        <section id="journey">
+            <h2>My Journey</h2>
+            <p>
+                My educational journey began at Gen. Licerio Geronimo Elementary School, and continued through Ramon Magsaysay High School. 
+                Currently, I am a student at Technological University of the Philippines - Manila, where I've been developing my skills and discovering my potential.
+                Each step has taught me something new, from teamwork and dedication to resilience in the face of challenges.
+            </p>
         </section>
 
         
-        <section>
-            <h2>Hobbies</h2>
+        <section id="skills">
+            <h2>Skills I have</h2>
+            <p>
+                Over the years, I have gained a variety of skills that have been invaluable in both my personal and professional life. Here are a few:
+            </p>
             <ul>
-                <li>Playing Basketball</li>
-                <li>Playing Mobile Games</li>
-                <li>Watching Kpop & Kdramas</li>
-                <li>Dancing</li>
+                <li><strong>Time Management:</strong> Balancing school, hobbies, and personal projects has taught me the importance of time management.</li>
+                <li><strong>Adaptability:</strong> Life has thrown many curveballs my way, and each one has helped me adapt and grow stronger.</li>
+                <li><strong>Critical Thinking:</strong> I love solving problems and finding creative solutions to challenges.</li>
+                <li><strong>Problem-Solving:</strong> From daily obstacles to more complex issues, problem-solving is a skill I’m proud to have developed.</li>
+            </ul>
+        </section>
+
+    
+        <section id="interests">
+            <h2>Things I Love</h2>
+            <p>
+                When I am not studying or working, you can usually find me enjoying a few of my favorite hobbies. Here’s a glimpse into what keeps me inspired and energized:
+            </p>
+            <ul>
+                <li><strong>Playing Basketball:</strong> There is nothing quite like the adrenaline rush and team spirit on the court.</li>
+                <li><strong>Playing Mobile Games:</strong> A fun way to unwind and sharpen my strategic thinking.</li>
+                <li><strong>Watching Kpop & Kdramas:</strong> These shows and music are not only entertaining but also give me a unique glimpse into Korean culture.</li>
+                <li><strong>Dancing:</strong> Dancing allows me to express myself and stay active.</li>
             </ul>
         </section>
     </div>
