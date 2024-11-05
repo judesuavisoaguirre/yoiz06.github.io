@@ -1,0 +1,1 @@
+# yoiz06.github.io
